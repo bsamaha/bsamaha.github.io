@@ -1,5 +1,5 @@
 ---
-title: "King County Multivariate Linear Regression Project"
+title: "Post: King County Multivariate Linear Regression Project"
 categories:
   - Project
 tags:
@@ -7,10 +7,6 @@ tags:
   - Post Formats
 link: https://github.com/bsamaha/KC_Housing_Multivariate_Regression
 ---
-
-
-
-
 
 # Import Libraries & Data for Model
 
