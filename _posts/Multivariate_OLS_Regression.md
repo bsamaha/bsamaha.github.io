@@ -1,5 +1,5 @@
 ---
-title: "Post: Project"
+title: "King County Multivariate Linear Regression Project"
 categories:
   - Project
 tags:
