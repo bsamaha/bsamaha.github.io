@@ -426,14 +426,13 @@ else:
 
 
 ```
-
-    Pval: 5.203411872121607e-266 ************ F_pval: 7.825766394899378e-280
+**
+    **Pval: 5.203411872121607e-266 F_pval: 7.825766394899378e-280**
     ----------------------------------------------------------------------------------------------------
-    For the White's Test
-    The p-value was 5.203e-266
-    We reject the null hypthoesis, so there is heterosecdasticity. 
-    
-    
+    **For the White's Test**
+    **The p-value was 5.203e-266**
+    **We reject the null hypthoesis, so there is heterosecdasticity.** 
+**    
 
 ### Breusch-Pagan's Test for Homoscedasticity
 
@@ -455,13 +454,13 @@ else:
     print("The p-value was {:.4}".format(pval))
     print("We reject the null hypthoesis, so there is no Homoskedasticity.")
 ```
-
-    Pval: 4.144787067358851e-198 ************ F_pval: 8.676129540258215e-205
+**
+    **Pval: 4.144787067358851e-198, F_pval: 8.676129540258215e-205**
     ----------------------------------------------------------------------------------------------------
-    For the Breusch-Pagan's Test
-    The p-value was 4.145e-198
-    We reject the null hypthoesis, so there is no Homoskedasticity.
-    
+    **For the Breusch-Pagan's Test**
+    **The p-value was 4.145e-198**
+    **We reject the null hypthoesis, so there is no Homoskedasticity.**
+**    
 
 ## Assumption 4
 ### Multicolinearality
