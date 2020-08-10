@@ -88,7 +88,7 @@ I will be explaining these assumptions in more detail as we arrive at each of th
 
 
 ```python
-#hprint(values_to_be_dropped)
+#print(values_to_be_dropped)
 #after running the model delete the hash to see what columns need to be dropped from dataframe
 
 df = df.drop(columns=['zipcode_98023','zipcode_98032'], axis=1)
