@@ -370,7 +370,7 @@ plt.title("Parameter Pvalue Distribution")
 
 
 
-![png](output_16_1.png)
+![Param_P-Value_Distribution]("/assets/images/KC MultiLinreg/Param_P-Value_Distribution.png")
 
 
 **If there are no values present in the output above we reject the null hypothesis and all varaiables in our model are significant.**
