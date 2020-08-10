@@ -7,7 +7,9 @@ tags:
 ---
 
 
-# [View the full GitHub Repo](https://github.com/bsamaha/KC_Housing_Multivariate_Regression)
+# [Click here to view the full GitHub Repo](https://github.com/bsamaha/KC_Housing_Multivariate_Regression)
+
+
 
 # Import Libraries & Data for Model
 
