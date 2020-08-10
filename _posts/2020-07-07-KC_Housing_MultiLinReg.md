@@ -695,20 +695,10 @@ from my_func import *
 #output test was a numpy array so just did this so you can see a dollar value
 np.asscalar(log_to_dollars(kc_county_houseprice_predictor.predict(X_test[46:47])))
 ```
-
-    C:\Users\blake\Anaconda3\lib\site-packages\ipykernel_launcher.py:4: DeprecationWarning: np.asscalar(a) is deprecated since NumPy v1.16, use a.item() instead
-      after removing the cwd from sys.path.
-    
-
-
-
-
     283907.18
 
 
 
 
-```python
 
-```
 
