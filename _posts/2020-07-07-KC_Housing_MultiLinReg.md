@@ -545,7 +545,7 @@ plt.show()
     
 
 
-![png](output_30_2.png)
+![Autocorrelation](/assets/images/KC_MultiLinReg/autocorrelation.png)
 
 
 ### Model Accuracy Test
