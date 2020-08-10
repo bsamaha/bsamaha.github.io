@@ -74,11 +74,11 @@ display(df.columns)
 
 Each assumption if violated means we may have to take extra steps to improve our model or in some cases dump the model altogether. Here is a list of the assumptions of the model:
 
-- 1. A linear relationship is assumed between the dependent variable and the independent variables.
-- 2. Regression residuals must be normally distributed.
-- 3. The residuals are homoscedastic and approximately rectangular-shaped.
-- 4. Absence of multicollinearity is expected in the model, meaning that independent variables are not too highly correlated.
-- 5. No Autocorrelation of the residuals.
+- A linear relationship is assumed between the dependent variable and the independent variables.
+- Regression residuals must be normally distributed.
+- The residuals are homoscedastic and approximately rectangular-shaped.
+- Absence of multicollinearity is expected in the model, meaning that independent variables are not too highly correlated.
+- No Autocorrelation of the residuals.
 
 I will be explaining these assumptions in more detail as we arrive at each of them in the tutorial. At this point, however, we need to have an idea of what they are.
 
