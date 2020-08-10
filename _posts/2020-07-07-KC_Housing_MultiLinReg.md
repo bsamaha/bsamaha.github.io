@@ -393,7 +393,7 @@ print("The mean of the residuals is {:.4}".format(mean_residuals))
 ```
 
 
-![png](output_19_0.png)
+![png](/assets/images/KC_MultiLinReg/QQ_Plot.png)
 
 
     The mean of the residuals is 1.253e-14
