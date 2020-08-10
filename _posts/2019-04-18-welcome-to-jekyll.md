@@ -1,11 +1,10 @@
 ---
 title: "Project: King County Multivariate Linear Regression Project!"
-date: 2019-04-18T15:34:30-04:00
 categories:
-  - blog
+  - Project
 tags:
-  - Jekyll
-  - update
+  - Linear Regression
+  - Machine Learning
 ---
 
 
