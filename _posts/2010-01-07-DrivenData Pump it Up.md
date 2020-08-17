@@ -215,7 +215,6 @@ plt.figure(figsize=(10,10))
 ![png](/assets/images/DrivenData_Pump_it_up/DrivenData_image.png)
 
 
-
     <Figure size 720x720 with 0 Axes>
 
 
