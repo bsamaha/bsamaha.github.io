@@ -9,7 +9,9 @@ tags:
   - Fastai
 ---
 
-Apparently GitHub/Jekyll does not work well with reading Fastai outputs. To view this notebook in the correct format please peform one of two options.
+Apparently GitHub/Jekyll does not work well with reading Fastai outputs. To view this notebook in the correct format please peform one of two options. <br/>
+
+You can see about 75% of the notebook in this form. The end of the notebook gets ugly where I actually start to train the model. I am currently working on a way to fix this.
 
 1. [View in GitHub Repo and download from there](https://github.com/bsamaha/Kaggle-Tweet-Sentiment-Extraction)
 2. [Upload the notebook into Google Colab by clicking on file -> upload notebook -> Choose GitHub and type bsamaha/Kaggle-Tweet-Sentiment-Extraction and press enter.](https://colab.research.google.com/notebooks/welcome.ipynb)
