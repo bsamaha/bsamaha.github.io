@@ -91,6 +91,8 @@ footer:
       icon: "fab fa-medium"
       url: "https://medium.com/@blake.samaha16"
 
+excerpt_separator: ""   
+
 defaults:
   # _posts
   - scope:
