@@ -260,7 +260,7 @@ def jaccard(str1, str2):
     time: 2.69 ms
     
 
-#### Conclusion: Looking at the result of the code below we see that the neutral sentiment has a jaccard similarity score of 97% which means the text and selected_text columns for neutral sentiment are basically identical. We will use this information and will not be doing any text extraction on the neutral sentiment. We will simply copy the values from text into our selected text output.
+#### Conclusion: Looking at the result of the code below we see that the neutral sentiment has a jaccard similarity score of 97 percent which means the text and selected_text columns for neutral sentiment are basically identical. We will use this information and will not be doing any text extraction on the neutral sentiment. We will simply copy the values from text into our selected text output.
 
 
 ```python
