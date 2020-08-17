@@ -32,15 +32,7 @@ warnings.filterwarnings('ignore')
     
 
 
-```python
-# Import Data - Upload train.csv and test.csv files to Colab runtime folder
-path = Path('/content')
-train_df = pd.read_csv(f'{path}/train.csv')
-test_df = pd.read_csv(f'{path}/test.csv')
-submission_df = pd.read_csv(f'{path}/test.csv')
-train_df.dropna(inplace=True)
-print(train_df.shape, test_df.shape)
-```
+
 
     (27480, 4) (3534, 3)
     time: 91.7 ms
