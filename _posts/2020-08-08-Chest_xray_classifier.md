@@ -9,6 +9,11 @@ tags:
   - Fastai
 ---
 
+As with all my Fastai projects, the outputs when training my models begins to mess with this website. I am working on getting them all fixed when I have in time. You can still see that the final training of the model gets the image classifier
+up to ~91% accuracy.<br/>
+
+[Please read my blog post on this notebook published by Towards Data Science](https://towardsdatascience.com/deep-learning-image-classification-with-fast-ai-fc4dc9052106)
+
 ```python
 %reload_ext autoreload
 %autoreload 2
@@ -70,7 +75,7 @@ print(len(data.train_ds), len(data.valid_ds))
     
 
 
-![png](/assets/iamges/Kaggle-Chest-Xray/output_4_1.png)
+![png](/assets/images/Kaggle-Chest-Xray/output_4_1.png)
 
 
 
@@ -440,7 +445,7 @@ interp.plot_top_losses(9, figsize=(15,11))
 ```
 
 
-![png](/assets/iamges/Kaggle-Chest-Xray/output_10_0.png)
+![png](/assets/images/Kaggle-Chest-Xray/output_10_0.png)
 
 
 
@@ -450,7 +455,7 @@ interp.plot_confusion_matrix(figsize=(12,12), dpi=60)
 ```
 
 
-![png](/assets/iamges/Kaggle-Chest-Xray/output_11_0.png)
+![png](/assets/images/Kaggle-Chest-Xray/output_11_0.png)
 
 
 
@@ -534,7 +539,7 @@ learn.recorder.plot(suggestion=True)
     
 
 
-![png](/assets/iamges/Kaggle-Chest-Xray/output_13_2.png)
+![png](/assets/images/Kaggle-Chest-Xray/output_13_2.png)
 
 
 
@@ -638,7 +643,7 @@ learn.recorder.plot(suggestion=True)Let
     
 
 
-![png](/assets/iamges/Kaggle-Chest-Xray/output_15_2.png)
+![png](/assets/images/Kaggle-Chest-Xray/output_15_2.png)
 
 
 
@@ -695,7 +700,7 @@ interp.plot_confusion_matrix(figsize=(12,12), dpi=60)
 
 
 
-![png](/assets/iamges/Kaggle-Chest-Xray/output_18_1.png)
+![png](/assets/images/Kaggle-Chest-Xray/output_18_1.png)
 
 
 
@@ -711,7 +716,7 @@ interp.plot_top_losses(9, figsize=(15,11))
 ```
 
 
-![png](/assets/iamges/Kaggle-Chest-Xray/output_20_0.png)
+![png](/assets/images/Kaggle-Chest-Xray/output_20_0.png)
 
 
 
