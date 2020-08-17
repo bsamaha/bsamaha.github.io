@@ -267,7 +267,6 @@ neutral_text = " ".join(tweet for tweet in neutral_word_df.text)
 stopwords = set(STOPWORDS)
 ```
 
-    time: 761 µs
     
 
 
@@ -278,9 +277,6 @@ plt.imshow(worldcloud, interpolation='bilinear')
 ```
 
 
-
-
-    <matplotlib.image.AxesImage at 0x7f4f6f2f2b00>
 
 
 
