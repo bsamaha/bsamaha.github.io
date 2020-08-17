@@ -2,9 +2,22 @@
 title: "Project: Kaggle Tweet Sentiment Extraction"
 categories:
   - Kaggle
+  - Project
 tags:
   - NLP
+  - Deep Learning
+  - Fastai
 ---
+
+Apparently GitHub/Jekyll does not work well with reading Fastai outputs. To view this notebook in the correct format please peform one of two options.
+
+1. [View in GitHub Repo and download from there](https://github.com/bsamaha/Kaggle-Tweet-Sentiment-Extraction)
+2. [Upload the notebook into Google Colab by clicking on file -> upload notebook -> Choose GitHub and type bsamaha/Kaggle-Tweet-Sentiment-Extraction and press enter.](https://colab.research.google.com/notebooks/welcome.ipynb)
+
+
+To get a brief overview of the project please view the presentation I gave on it. 
+[Non-technical Presentation](https://github.com/bsamaha/Kaggle-Tweet-Sentiment-Extraction/blob/master/Non_technical_presentation.pdf)
+
 ```python
 from fastai.text import *
 import pandas as pd
