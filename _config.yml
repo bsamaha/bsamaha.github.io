@@ -57,6 +57,7 @@ plugins:
   - jemoji
   - jekyll-include-cache
   - jekyll-theme-time-machine
+  - jekyll-jupyter-notebook
 
 author:
   name   : "Blake Samaha"
@@ -91,7 +92,6 @@ footer:
       icon: "fab fa-medium"
       url: "https://medium.com/@blake.samaha16"
 
-excerpt_separator: ""   
 
 defaults:
   # _posts
