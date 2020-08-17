@@ -6,6 +6,10 @@ tags:
   - Linear Regression
 ---
 
+The purpose of this linear regression exercise was to create a model that could accurately predict price. The focus was to create a very simple model inputs that are easily obtained and verifiable. We wanted to make this a foolproof model that is everyone to be able to use.<br/>
+<br/>
+
+Use case example: You are searching for homes to buy on Zillow, but the Zestimate looks to be way off. You don't have any experience in real estate and are not from the area so you have no gauge on what prices typically range.
 
 # [Click here to view the full GitHub Repo](https://github.com/bsamaha/KC_Housing_Multivariate_Regression)
 
