@@ -4,7 +4,7 @@ categories:
   - Blog
 tags:
   - Deep Learning
-  - Fastai - Pytorch
+  - Fastai
   - Image Classification
 link: https://towardsdatascience.com/deep-learning-image-classification-with-fast-ai-fc4dc9052106
 ---
