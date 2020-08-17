@@ -1,5 +1,5 @@
 ---
-title: "Post: Measuring Agreement with Cohen’s Kappa Statistic"
+title: "Blog: Measuring Agreement with Cohen’s Kappa Statistic"
 categories:
   - Blog
 tags:
