@@ -238,7 +238,7 @@ temp.style.background_gradient(cmap='Purples')
 # Group together sentiments
 temp.style.background_gradient(cmap='Purples')
 
-# Check ratio of observations of each sentiment class -- looking for class imbalance
+# Check ration of observations of each sentiment class -- looking for class imbalance
 fig = go.Figure(go.Funnelarea(
     text =temp.sentiment,
     values = temp.text,
@@ -246,7 +246,6 @@ fig = go.Figure(go.Funnelarea(
     ))
 fig.show()
 ```
-    
 
 ### Question: What is the breakdown of words in "selected text" for each sentiment? 
 We will use the jaccard similarity coefficient. This coefficient measure similarity for two *sets*. This number is between 0 and 1 with 0 being perfectly unique and 1 meaning the sets are identical.
@@ -266,6 +265,7 @@ def jaccard(str1, str2):
 
     time: 2.69 ms
     
+
 #### Conclusion: Looking at the result of the code below we see that the neutral sentiment has a jaccard similarity score of 97% which means the text and selected_text columns for neutral sentiment are basically identical. We will use this information and will not be doing any text extraction on the neutral sentiment. We will simply copy the values from text into our selected text output.
 
 
@@ -318,7 +318,7 @@ print(f"Median jaccard similarity for tweets less than 3 words is {short_tweet_j
     
 
 
-![png](./projects./Kaggle_Tweet_Sentiment_Extraction/output_14_1.png)
+![png](projects/Kaggle_Tweet_Sentiment_Extraction/output_14_1.png)
 
 
     time: 215 ms
@@ -430,7 +430,7 @@ plt.imshow(worldcloud, interpolation='bilinear')
 
 
 
-![png](./projects./Kaggle_Tweet_Sentiment_Extraction/_25_1.png)
+![png](projects/Kaggle_Tweet_Sentiment_Extraction/output_25_1.png)
 
 
     time: 1.72 s
@@ -447,7 +447,7 @@ Image.open('/content/twitter_mask.png')
 
 
 
-![png](./projects./Kaggle_Tweet_Sentiment_Extraction/output_27_0.png)
+![png](projects/Kaggle_Tweet_Sentiment_Extraction/output_27_0.png)
 
 
 
@@ -529,7 +529,7 @@ plt.show()
 ```
 
 
-![png](output_31_0.png)
+![png](projects/Kaggle_Tweet_Sentiment_Extraction/output_31_0.png)
 
 
     time: 4.26 s
@@ -547,7 +547,7 @@ plt.show()
 ```
 
 
-![png](./projects./Kaggle_Tweet_Sentiment_Extraction/output_32_0.png)
+![png](projects/Kaggle_Tweet_Sentiment_Extraction/output_32_0.png)
 
 
     time: 3.39 s
@@ -565,7 +565,7 @@ plt.show()
 ```
 
 
-![png](output_33_0.png)
+![png](projects/Kaggle_Tweet_Sentiment_Extraction/output_33_0.png)
 
 
     time: 3.53 s
@@ -583,7 +583,7 @@ plt.show()
 ```
 
 
-![png]./projects./Kaggle_Tweet_Sentiment_Extraction/output_34_0.png)
+![png](projects/Kaggle_Tweet_Sentiment_Extraction/output_34_0.png)
 
 
     time: 3.62 s
@@ -754,7 +754,7 @@ learn.recorder.plot()
     
 
 
-![png](./projects./Kaggle_Tweet_Sentiment_Extraction/output_41_2.png)
+![png](projects/Kaggle_Tweet_Sentiment_Extraction/output_41_2.png)
 
 
     time: 12.4 s
@@ -992,7 +992,7 @@ learn.recorder.plot()
     
 
 
-![png](./projects./Kaggle_Tweet_Sentiment_Extraction/output_51_2.png)
+![png](projects/Kaggle_Tweet_Sentiment_Extraction/output_51_2.png)
 
 
     time: 2.99 s
@@ -1168,7 +1168,7 @@ interp.plot_confusion_matrix(figsize=(6,6), dpi=60)
 
 
 
-![png](./projects./Kaggle_Tweet_Sentiment_Extraction/output_57_1.png)
+![png](projects/Kaggle_Tweet_Sentiment_Extraction/output_57_1.png)
 
 
     time: 2.44 s
@@ -1621,3 +1621,4 @@ sample_df
 ```python
 
 ```
+
