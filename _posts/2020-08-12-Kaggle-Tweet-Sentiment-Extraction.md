@@ -313,7 +313,7 @@ print(f"Median jaccard similarity for tweets less than 3 words is {short_tweet_j
     
 
 
-![png](https://github.com/bsamaha/bsamaha.github.io/blob/63b1fbfc01e2076299e8451eef8a910c9eafb4bc/projects/Kaggle_Tweet_Sentiment_Extraction/output_14_1.png)
+![png](./projects/Kaggle_Tweet_Sentiment_Extraction/output_14_1.png)
 
 
     time: 215 ms
