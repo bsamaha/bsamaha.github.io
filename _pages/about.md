@@ -9,4 +9,4 @@ I have over 5 years of professional experience where I have obtained many job ti
 I love wrangling data and mining insights out of it. I love to get lost in the technical exploration of a new data set. However, my experience has taught me that numbers do not always translate perfectly to real life. It is deciphering these boundaries, between theoretical and actual, where I love to work. 
 <br/>
 <br/>
-My favorite maxim is all models are wrong, but some models are useful.
+My favorite maxim is "all models are wrong, but some models are useful."
