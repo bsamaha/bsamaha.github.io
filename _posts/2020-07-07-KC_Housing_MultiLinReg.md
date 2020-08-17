@@ -3,7 +3,7 @@ title: "King County Multivariate Linear Regression Project"
 categories:
   - Project
 tags:
-  - Machine Learning - Linear Regression
+  - Linear Regression
 ---
 
 
