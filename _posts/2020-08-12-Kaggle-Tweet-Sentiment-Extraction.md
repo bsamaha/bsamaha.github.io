@@ -262,15 +262,16 @@ def jaccard(str1, str2):
 
 #### Conclusion: Looking at the result of the code below we see that the neutral sentiment has a jaccard similarity score of 97% which means the text and selected_text columns for neutral sentiment are basically identical. We will use this information and will not be doing any text extraction on the neutral sentiment. We will simply copy the values from text into our selected text output.
 
-{% raw %}
+
 ```python
+{% raw %}
 # Apply jaccard function to data frame 
 train_df['jaccard_similarity'] = train_df.apply(lambda x: jaccard(x.text, x.selected_text), axis=1)
 
 # Group by sentiment to see what the average jaccard similarity coefficient is
 train_df.groupby('sentiment')['jaccard_similarity'].mean()
-```
 {% endraw %}
+```
 
 
 
