@@ -1,5 +1,5 @@
 ---
-title: "Post: Chat"
+title: "Blog: Deep Learning Image Classificationwith Fastai"
 categories:
   - Blog
 tags:
