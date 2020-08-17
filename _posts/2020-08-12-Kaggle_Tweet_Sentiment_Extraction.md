@@ -1,5 +1,5 @@
 ---
-title: "Project: DrivenData's Pump it Up"
+title: "Project: Kaggle's Tweet Sentiment Extraction"
 categories:
   - Project
   - Kaggle
