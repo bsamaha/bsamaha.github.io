@@ -1,5 +1,5 @@
 ---
-title: "Blog: Deep Learning Image Classificationwith Fastai"
+title: "Blog: Deep Learning Image Classification with Fastai"
 categories:
   - Blog
 tags:
