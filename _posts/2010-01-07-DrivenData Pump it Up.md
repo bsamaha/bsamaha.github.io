@@ -212,7 +212,7 @@ plt.figure(figsize=(10,10))
 
 
 
-![png](./assets/images/DrivenData_Pump_it_up/output_13_1.png)
+![png](/assets/images/DrivenData_Pump_it_up/output_13_1.png)
 
 
 
