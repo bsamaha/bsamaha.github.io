@@ -19,7 +19,7 @@ import plotly.figure_factory as ff
 import warnings
 warnings.filterwarnings('ignore')
 
-!pip install ipython-autotime
+pip install ipython-autotime
 %load_ext autotime
 ```
 
@@ -54,92 +54,6 @@ text_df
 
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>text</th>
-      <th>sentiment</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>I`d have responded, if I were going</td>
-      <td>neutral</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>Sooo SAD I will miss you here in San Diego!!!</td>
-      <td>negative</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>my boss is bullying me...</td>
-      <td>negative</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>what interview! leave me alone</td>
-      <td>negative</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>Sons of ****, why couldn`t they put them on t...</td>
-      <td>negative</td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>3529</th>
-      <td>its at 3 am, im very tired but i can`t sleep  ...</td>
-      <td>negative</td>
-    </tr>
-    <tr>
-      <th>3530</th>
-      <td>All alone in this old house again.  Thanks for...</td>
-      <td>positive</td>
-    </tr>
-    <tr>
-      <th>3531</th>
-      <td>I know what you mean. My little dog is sinkin...</td>
-      <td>negative</td>
-    </tr>
-    <tr>
-      <th>3532</th>
-      <td>_sutra what is your next youtube video gonna b...</td>
-      <td>positive</td>
-    </tr>
-    <tr>
-      <th>3533</th>
-      <td>http://twitpic.com/4woj2 - omgssh  ang cute n...</td>
-      <td>positive</td>
-    </tr>
-  </tbody>
-</table>
-<p>31014 rows × 2 columns</p>
-</div>
-
-
-
-    time: 29.4 ms
     
 
 # Data Exploration
@@ -181,51 +95,12 @@ train_df.isnull().sum()
 
 
 
-    time: 9.39 ms
-    
-
 
 ```python
 # Group sentiment classes together
 temp = train_df.groupby('sentiment').count()['text'].reset_index().sort_values(by='text',ascending=False)
 temp.style.background_gradient(cmap='Purples')
 ```
-
-
-
-
-<style  type="text/css" >
-    #T_c4451628_dc99_11ea_85f6_0242ac1c0002row0_col1 {
-            background-color:  #3f007d;
-            color:  #f1f1f1;
-        }    #T_c4451628_dc99_11ea_85f6_0242ac1c0002row1_col1 {
-            background-color:  #dcdcec;
-            color:  #000000;
-        }    #T_c4451628_dc99_11ea_85f6_0242ac1c0002row2_col1 {
-            background-color:  #fcfbfd;
-            color:  #000000;
-        }</style><table id="T_c4451628_dc99_11ea_85f6_0242ac1c0002" ><thead>    <tr>        <th class="blank level0" ></th>        <th class="col_heading level0 col0" >sentiment</th>        <th class="col_heading level0 col1" >text</th>    </tr></thead><tbody>
-                <tr>
-                        <th id="T_c4451628_dc99_11ea_85f6_0242ac1c0002level0_row0" class="row_heading level0 row0" >1</th>
-                        <td id="T_c4451628_dc99_11ea_85f6_0242ac1c0002row0_col0" class="data row0 col0" >neutral</td>
-                        <td id="T_c4451628_dc99_11ea_85f6_0242ac1c0002row0_col1" class="data row0 col1" >11117</td>
-            </tr>
-            <tr>
-                        <th id="T_c4451628_dc99_11ea_85f6_0242ac1c0002level0_row1" class="row_heading level0 row1" >2</th>
-                        <td id="T_c4451628_dc99_11ea_85f6_0242ac1c0002row1_col0" class="data row1 col0" >positive</td>
-                        <td id="T_c4451628_dc99_11ea_85f6_0242ac1c0002row1_col1" class="data row1 col1" >8582</td>
-            </tr>
-            <tr>
-                        <th id="T_c4451628_dc99_11ea_85f6_0242ac1c0002level0_row2" class="row_heading level0 row2" >0</th>
-                        <td id="T_c4451628_dc99_11ea_85f6_0242ac1c0002row2_col0" class="data row2 col0" >negative</td>
-                        <td id="T_c4451628_dc99_11ea_85f6_0242ac1c0002row2_col1" class="data row2 col1" >7781</td>
-            </tr>
-    </tbody></table>
-
-
-
-    time: 39.8 ms
-    
 
 
 ```python
@@ -256,8 +131,6 @@ def jaccard(str1, str2):
   c = a.intersection(b)
   return float(len(c)) / (len(a) + len(b) - len(c))
 ```
-
-    time: 2.69 ms
     
 
 #### Conclusion: Looking at the result of the code below we see that the neutral sentiment has a jaccard similarity score of 97 percent which means the text and selected_text columns for neutral sentiment are basically identical. We will use this information and will not be doing any text extraction on the neutral sentiment. We will simply copy the values from text into our selected text output.
@@ -314,7 +187,7 @@ print(f"Median jaccard similarity for tweets less than 3 words is {short_tweet_j
 
 ```python
 #install the appropriate library directly from their github and name the module for easy importing into google colab
-!pip install git+https://github.com/amueller/word_cloud.git #egg=wordcloud
+pip install git+https://github.com/amueller/word_cloud.git #egg=wordcloud
 ```
 
     Collecting git+https://github.com/amueller/word_cloud.git
