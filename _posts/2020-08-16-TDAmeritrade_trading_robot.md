@@ -1,5 +1,5 @@
 ---
-title: "Project: Kaggle Tweet Sentiment Extraction"
+title: "Project: TD Ameritrade Trading Robot"
 categories:
   - Finance
   - Project
