@@ -1,16 +1,3 @@
----
-title: "Project: DrivenData's Pump it Up"
-categories:
-  - Project
-  - DrivenData
-tags:
-  - Multilabel Classification
-  - XGBoost
----
-Please view this brief presentation I put together to see a rough map of how I went about mining insights from this data. I used the distributions of the status group to look for interesting ratios in different features. Meaning, if the normal ratio was 1:1:1 that means for every "functional" well, there is a "funcational needs repair", and a "non functional well." I dissected the features and looked for data where the ratios were different, like 2:2:1 for example. It is with these unique ratios the XGBClassifier is able to discern the differences in what makes a well functional or not.
-
-[Presentation PDF](https://github.com/bsamaha/Competition---DrivenData---Pump-It-Up/blob/master/Presentation.pdf)
-
 ```python
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -212,7 +199,7 @@ plt.figure(figsize=(10,10))
 
 
 
-![png](./projects/DrivenData_Pump_it_up/output_13_1.png)
+![png](output_13_1.png)
 
 
 
