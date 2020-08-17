@@ -1,5 +1,5 @@
 ---
-title: "King County Multivariate Linear Regression Project"
+title: "Project: King County Multivariate Linear Regression Project"
 categories:
   - Project
 tags:
