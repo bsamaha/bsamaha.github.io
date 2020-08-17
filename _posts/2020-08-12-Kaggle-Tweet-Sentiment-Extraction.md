@@ -5,7 +5,7 @@ categories:
 tags:
   - NLP
 ---
-
+{% raw %}
 ```python
 from fastai.text import *
 import pandas as pd
@@ -260,10 +260,10 @@ def jaccard(str1, str2):
 
     time: 2.69 ms
     
-{% raw %}
+
 #### Conclusion: Looking at the result of the code below we see that the neutral sentiment has a jaccard similarity score of 97% which means the text and selected_text columns for neutral sentiment are basically identical. We will use this information and will not be doing any text extraction on the neutral sentiment. We will simply copy the values from text into our selected text output.
 
-{% endraw %}
+
 ```python
 # Apply jaccard function to data frame 
 train_df['jaccard_similarity'] = train_df.apply(lambda x: jaccard(x.text, x.selected_text), axis=1)
@@ -1611,8 +1611,4 @@ sample_df = test_df.head()
 sample_df['selected_text'] = sample_df.apply(lambda x: df_filter(x, 'neutral', selected_text_grabber), axis = 1)
 sample_df
 ```
-
-
-```python
-
-```
+{% endraw %}
