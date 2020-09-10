@@ -8,7 +8,7 @@ tags:
   - Deep Learning
   - Keras
   - RNN
-  - Tensorflow
+  - TensorFlow
 ---
 **This notebook is part 4 of a multi-phase project of building a quantitative trading algorithm. This notebook is about RNNs and shows how using a sequence to sequence RNN helps create a faster training model.**
 
