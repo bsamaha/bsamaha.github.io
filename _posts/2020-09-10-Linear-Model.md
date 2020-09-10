@@ -1,5 +1,5 @@
 ---
-title: "Project: Part 2, Time_Series_Forecasting_with_a_Linear_Model"
+title: "Project: Part 2, Time Series Forecasting with a Linear Model using Keras"
 categories:
   - Project
   - Finance
@@ -8,7 +8,7 @@ tags:
   - Keras
   - TensorFlow
 ---
-**This notebook is part 1 of a multi-phase project of building a quantitative trading algorithm. This notebook starts with the more simple models which will be compared to more complex deep learning models. This notebook's last image shows the final results of all models tested.**
+**This notebook is part 2 of a multi-phase project of building a quantitative trading algorithm. This notebook explains what a linear model is using Keras.**
 
 # This is Keras/TensorFlow right? I thought this was Deep Learning?
 

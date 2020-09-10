@@ -7,7 +7,7 @@ tags:
   - Time Series Analysis
   - Deep Learning
 ---
-**This notebook is part 1 of a multi-phase project of building a quantitative trading algorithm. This notebook starts with the more simple models which will be compared to more complex deep learning models. This notebook's last image shows the final results of all models tested.**
+**This notebook is part 3 of a multi-phase project of building a quantitative trading algorithm. Finally, this project is starting to get into the deep learning models.**
 
 # Dense Forecasting
 
