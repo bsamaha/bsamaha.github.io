@@ -5,7 +5,8 @@ categories:
   - Finance
 tags:
   - Time Series Analysis
-  - Deep Learning
+  - Keras
+  - TensorFlow
 ---
 **This notebook is part 3 of a multi-phase project of building a quantitative trading algorithm. Finally, this project is starting to get into the deep learning models.**
 

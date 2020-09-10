@@ -2,9 +2,10 @@
 title: "Blog: Build an ARIMA Model to Predict a Stock's Price"
 categories:
   - Blog
-tags:
-  - Time Series
   - Finance
+tags:
+  - Time Series Analysis
+  - ARIMA
 link: https://levelup.gitconnected.com/build-an-arima-model-to-predict-a-stocks-price-c9e1e49367d3
 ---
 
