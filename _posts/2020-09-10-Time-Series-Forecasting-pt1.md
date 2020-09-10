@@ -7,8 +7,10 @@ tags:
   - Time Series Analysis
   - ARIMA
 ---
+**This notebook is part 1 of a multi-phase project of building a quantitative trading algorithm. This notebook starts with the more simple models which will be compared to more complex deep learning models. This notebook's last image shows the final results of all models tested.**
 
-# Load in Data
+
+## Load in Data
 
 
 ```python
