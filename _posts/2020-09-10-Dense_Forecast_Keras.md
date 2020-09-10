@@ -1,5 +1,5 @@
 ---
-title: "Project: Part 3 Dense Forecast with Keras"
+title: "Project: Part 3, Dense Forecast with Keras"
 categories:
   - Project
   - Finance

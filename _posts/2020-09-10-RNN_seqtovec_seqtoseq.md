@@ -1,5 +1,5 @@
 ---
-title: "Project: Part 4 RNN Forecast with Keras"
+title: "Project: Part 4, RNN Forecast with Keras"
 categories:
   - Project
   - Finance

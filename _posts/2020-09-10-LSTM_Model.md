@@ -1,5 +1,5 @@
 ---
-title: "Project: Part 5 Time Series LSTM Forecast with Keras"
+title: "Project: Part 5, Time Series LSTM Forecast with Keras"
 categories:
   - Project
   - Finance
