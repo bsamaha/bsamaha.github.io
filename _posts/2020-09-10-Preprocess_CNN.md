@@ -1,5 +1,5 @@
 ---
-title: "Project: Part 6, Time Series LSTM Forecast with Keras"
+title: "Project: Part 6, Time Series Forecast with hybrid CNN and RNN"
 categories:
   - Project
   - Finance

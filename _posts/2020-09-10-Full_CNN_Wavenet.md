@@ -1,5 +1,5 @@
 ---
-title: "Project: Part 7, Time Series Forecast with Kerasand CNNs"
+title: "Project: Part 7, Time Series Forecast with Keras and CNNs"
 categories:
   - Project
   - Finance
