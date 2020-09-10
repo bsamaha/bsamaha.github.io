@@ -1,5 +1,5 @@
 ---
-title: "Time Series_Forecasting_with_Naive_Moving_Averages_and_ARIMA"
+title: "Project: Time Series_Forecasting_with_Naive_Moving_Averages_and_ARIMA"
 categories:
   - Project
   - Finance
